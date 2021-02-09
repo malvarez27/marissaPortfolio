@@ -28,7 +28,7 @@ export default class About extends Component {
 
           <div id="about-download-resume" className="grid-cell">
             <a className="download"
-               href="/images/marissa-resume.pdf"
+               href="./images/marissa-resume.pdf"
                download="marissa-resume.pdf">
               <i className="fa fa-download" />&nbsp;&nbsp;
               Download Resume
