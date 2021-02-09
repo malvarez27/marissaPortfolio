@@ -2,6 +2,13 @@ import React, { Component } from 'react';
 import SocialLink from "./subcomponents/SocialLink";
 
 export default class About extends Component {
+  shoot = () => {
+    //alert(this);
+    window.location.href = "https://raw.githubusercontent.com/malvarez27/marissaPortfolio/master/public/images/marissa-resume.pdf";
+    /*
+    The 'this' keyword refers to the component object
+    */
+  }
   render() {
     const about = this.props.about;
     const links = this.props.socialLinks;
@@ -27,12 +34,13 @@ export default class About extends Component {
           </div>
 
           <div id="about-download-resume" className="grid-cell">
-            <a className="download"
-               href="./images/marissa-resume.pdf"
+            <button className="download"
+               //url="https://raw.githubusercontent.com/malvarez27/marissaPortfolio/master/public/images/marissa-resume.pdf"
+               onClick={this.shoot}
                download="marissa-resume.pdf">
               <i className="fa fa-download" />&nbsp;&nbsp;
               Download Resume
-            </a>
+            </button>
           </div>
         </div>
       </section>
