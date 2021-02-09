@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import SocialLink from "./subcomponents/SocialLink";
 
 export default class About extends Component {
-  shoot = () => {
+  resume = () => {
     //alert(this);
     window.location.href = "https://raw.githubusercontent.com/malvarez27/marissaPortfolio/master/public/images/marissa-resume.pdf";
     /*
@@ -36,7 +36,7 @@ export default class About extends Component {
           <div id="about-download-resume" className="grid-cell">
             <button className="download"
                //url="https://raw.githubusercontent.com/malvarez27/marissaPortfolio/master/public/images/marissa-resume.pdf"
-               onClick={this.shoot}
+               onClick={this.resume}
                download="marissa-resume.pdf">
               <i className="fa fa-download" />&nbsp;&nbsp;
               Download Resume
