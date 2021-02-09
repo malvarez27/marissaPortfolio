@@ -67,7 +67,7 @@ const resume = {
           "see if certain categories were lacking in the area, and how to differentiate yourself if the menu for your " +
           "restauraunts is similar to your competitors." +
           " I utilized Python, MySQL, the Yelp API, and Tableau.",
-          "url": "https://github.com/malvarez27/yelpDB",
+          "url": "https://github.com/malvarez27/yelpDB#readme",
           "img": "/images/CreateFastFoodDB.jpg"
         },
         {
