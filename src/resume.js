@@ -78,10 +78,10 @@ const resume = {
         },
         {
             "title": "Study Abroad HTML Blog",
-            "summary": "I created a study abroad blog post about my experience in New Zealand. I used HTML and Bootstrap to create it. " +
-            " When I was looking into the NZ study abroad program at LMU there was little to no information about student experiences. I " +
-            " had to reach out to a few alumni to learn more. To give back to the LMU community I wanted to share my experince by creating this" +
-            " blog post to allow for students who are looking into this program to access it whenever they want. This link was shared with the LMU study abroad office at LMU. ",
+            "summary": "When I was looking into the New Zealand study abroad program at LMU there was little to no information about student  " +
+            " experiences. I had to reach out to alumni to learn more. To give back to the LMU community I used HTML and Bootstrap to  " +
+            " create a study abroad blog post about my experience. This allows future students to learn about the program. My blog is now " +
+            " shared by the LMU study abroad office to students looking into the program. ",
             "url": "https://malvarez27.github.io/Study-Abroad-Website-Blog/",
             "img": "/images/NZBlog.jpg"
         }
