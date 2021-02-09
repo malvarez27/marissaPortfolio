@@ -58,7 +58,7 @@ const resume = {
             "summary": "Logical Organizations of Integrated Environments is an Internally developed web application for" +
             "the Factory of the Future (FoF) initiative at Northrop Grumman. The LOOIE web application tracks and manages tools, support equipment, and material movement from receipt to deployment." +
             " Click the link to learn more about my role on this project! " ,
-            "url": "/images/Looie.pdf",
+            "url": "https://github.com/malvarez27/marissaPortfolio/blob/master/public/images/Looie.pdf",
             "img": "/images/Homepage.png"
         },
         {
@@ -67,7 +67,7 @@ const resume = {
           "see if certain categories were lacking in the area, and how to differentiate yourself if the menu for your " +
           "restauraunts is similar to your competitors." +
           " I utilized Python, MySQL, the Yelp API, and Tableau.",
-          "url": "/images/DBPortfolio.pdf",
+          "url": "https://github.com/malvarez27/yelpDB",
           "img": "/images/CreateFastFoodDB.jpg"
         },
         {
