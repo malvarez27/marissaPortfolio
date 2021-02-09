@@ -2,12 +2,12 @@
 
 [Click Here to view my Portfolio](https://www.marissaalvarez.com/)
 
-#Technologies
+# Technologies
 * React
 * JavaScript
 * HTML
 * CSS
 
-#Deployment
+# Deployment
 * AWS Amplify
 * Registered a unique domain
