@@ -1,0 +1,452 @@
+/*
+===================================================
+
+===================================================
+
+ Contents:
+    1. Fonts
+    2. Reset
+    3. Default Styles
+        a. Basic
+        b. Lists
+        c. Buttons
+        d. Forms
+        e. Links/Images
+        f. Utility
+        g. Grid
+
+=================================================== */
+
+/* ------------------------------------------------
+    1. Fonts
+   ------------------------------------------------ */
+@import url("fonts.css");
+@import url("font-awesome/css/font-awesome.min.css");
+
+/* ------------------------------------------------
+    2. Reset
+       Adapted from:
+       HTML5 Doctor  - http://html5doctor.com/html-5-reset-stylesheet/
+       Normalize.css - https://github.com/necolas/normalize.css/
+   ------------------------------------------------ */
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display: block;
+}
+
+[hidden] { display: none; }
+
+a {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+abbr[title], dfn[title] {
+    border-bottom: 1px dotted;
+    cursor: help;
+}
+
+button, input, optgroup, select, textarea {
+    font-family: inherit;
+    font-size: 100%;
+    line-height: 1.15;
+    margin: 0;
+}
+
+button, [type="button"], [type="reset"], [type="submit"] {
+    -webkit-appearance: button;
+}
+
+code, kbd, samp {
+    font-family: monospace, monospace;
+    font-size: 1em;
+}
+
+del { text-decoration: line-through; }
+
+img { border: 0 none; }
+
+input, select { vertical-align: middle; }
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* ------------------------------------------------
+    3. Default Styles
+    Adapted from:
+    Skeleton.css - http://getskeleton.com/
+    Ceevee Stylesheet - https://www.styleshout.com/
+   ------------------------------------------------ */
+
+/*  a. Basic  ------------------------------------- */
+*, *:before, *:after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    -webkit-font-smoothing: antialiased;
+}
+
+body {
+    font-size: 15px;
+    line-height: 30px;
+    font-weight: normal;
+    font-family: "source_sans_proregular", sans-serif;
+    color: #838C95;
+
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-size-adjust: 100%;
+}
+
+/* ----- Typography ----- */
+h1, h2, h3, h4, h5, h6 {
+    color: #313131;
+    font-family: 'source_sans_probold', sans-serif;
+    font-weight: normal;
+}
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a { font-weight: inherit; }
+h1 { font-size: 38px; line-height: 42px; margin: 0 0 12px 0; letter-spacing: -1px; }
+h2 { font-size: 32px; line-height: 36px; margin: 0 0 9px 0; }
+h3 { font-size: 24px; line-height: 30px; margin: 0 0 6px 0; }
+h4 { font-size: 20px; line-height: 30px; margin: 0 0 6px 0; }
+h5 { font-size: 18px; line-height: 30px; margin: 0 0 6px 0; }
+h6 { font-size: 14px; line-height: 30px; margin: 0 0 6px 0; }
+
+@media (min-width: 767px) {
+    h1 { font-size: 46px; line-height: 50px; }
+    h2 { font-size: 36px; line-height: 40px; }
+    h3 { font-size: 30px; line-height: 34px; }
+    h4 { font-size: 24px; }
+    h5 { font-size: 20px; }
+    h6 { font-size: 18px; }
+}
+
+p { margin: 0 0 30px 0; }
+p img { margin: 0; }
+
+/* for 'em' and 'strong' tags, font-size and line-height should be same with
+the body tag due to rendering problems in some browsers */
+em { font: 15px/30px 'source_sans_proitalic', sans-serif; }
+strong, b { font: 15px/30px 'source_sans_probold', sans-serif; }
+small { font-size: 11px; line-height: inherit; }
+
+/* ----- Blockquotes ----- */
+blockquote {
+    margin: 30px 0;
+    padding: 0 0 0 40px;
+    position: relative;
+}
+blockquote p {
+    font-family: "libre_baskervilleitalic", serif;
+    padding: 0;
+    font-size: 24px;
+    line-height: 30px;
+}
+blockquote cite {
+    display: block;
+    font-size: 18px;
+    font-style: normal;
+    line-height: 24px;
+}
+
+/*  b. Lists  ------------------------------------- */
+ul, ol { margin: 12px 0 24px 0; }
+ul { list-style: none outside; }
+ol { list-style: decimal; }
+ol, ul.square, ul.circle, ul.disc { margin: 0 0 0 30px; }
+ul.square { list-style: square outside; }
+ul.circle { list-style: circle outside; }
+ul.disc { list-style: disc outside; }
+ul ul, ul ol, ol ol, ol ul { margin: 6px 0 6px 30px; }
+ul ul li, ul ol li, ol ol li, ol ul li { margin: 0 0 6px 0; }
+li { line-height: 18px; margin-bottom: 12px; }
+
+/*  c. Buttons  ----------------------------------- */
+.button,
+.button:visited,
+button,
+input[type="submit"],
+input[type="reset"],
+input[type="button"] {
+    font: 16px/30px 'source_sans_probold', sans-serif;
+    background: #11ABB0;
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    white-space: nowrap;
+    letter-spacing: 0;
+    color: #FFFFFF;
+    margin: 0 0 18px 0;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+    height: auto;
+
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+
+.button:hover,
+button:hover,
+input[type="submit"]:hover,
+input[type="reset"]:hover,
+input[type="button"]:hover,
+.button:focus,
+button:focus,
+input[type="submit"]:focus,
+input[type="reset"]:focus,
+input[type="button"]:focus {
+    color: #FFFFFF;
+    background: #3d4145;
+}
+
+.button:active,
+button:active,
+input[type="submit"]:active,
+input[type="reset"]:active,
+input[type="button"]:active {
+    color: #FFFFFF;
+    background: #3d4145;
+}
+
+.button.full-width,
+button.full-width,
+input[type="submit"].full-width,
+input[type="reset"].full-width,
+input[type="button"].full-width {
+    width: 100%;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
+/* Fix for odd Mozilla border & padding issues */
+button::-moz-focus-inner, input::-moz-focus-inner {
+    border: 0;
+    padding: 0;
+}
+
+/*  d. Forms  ------------------------------------- */
+form { margin: 0 0 24px 0; }
+
+input[type="email"],
+input[type="number"],
+input[type="search"],
+input[type="text"],
+input[type="url"],
+input[type="password"],
+textarea,
+select {
+    color: #647373;
+    background: #D3D9D9;
+    vertical-align: middle;
+    display: block;
+    min-width: 225px;
+    max-width: 100%;
+    font-size: 16px;
+    line-height: 24px;
+    padding: 6px 10px;
+    margin: 0 0 24px 0;
+    border: 0;
+    outline: none;
+}
+
+/* Removes awkward default styles on some inputs for iOS */
+input[type="email"],
+input[type="number"],
+input[type="search"],
+input[type="text"],
+input[type="tel"],
+input[type="url"],
+input[type="password"],
+textarea {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+input[type="email"]:focus,
+input[type="number"]:focus,
+input[type="search"]:focus,
+input[type="text"]:focus,
+input[type="url"]:focus,
+input[type="password"]:focus,
+textarea:focus,
+select:focus {
+    color: #B3B7BC;
+    background: #3D4145;
+    border: 1px solid #647373;
+    outline: 0;
+}
+
+textarea { min-height: 220px; }
+
+label, legend {
+    color: #3D4145;
+    font: 16px/24px 'source_sans_probold', sans-serif;
+    margin: 12px 0;
+    display: block;
+}
+
+label span, legend span {
+    color: #8B9798;
+    font: 14px/24px 'source_sans_proregular', sans-serif;
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+    color: #737373;
+    font-size: 16px;
+}
+
+input[type="checkbox"] { display: inline; }
+
+/*  e. Links/Images ------------------------------- */
+a, a:visited {
+    text-decoration: none;
+    outline: 0;
+    color: #313131;
+
+    -webkit-transition: color .2s ease-in-out;
+    -moz-transition: color .2s ease-in-out;
+    -o-transition: color .2s ease-in-out;
+    transition: color .2s ease-in-out;
+}
+
+a:hover, a:focus { color: #11ABB0; }
+
+p a, p a:visited { line-height: inherit; }
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+/*  f. Utility  ----------------------------------- */
+.text-left { text-align: left !important; }
+.text-right { text-align: right !important; }
+.text-center { text-align: center !important; }
+
+.align-left { float: left !important; }
+.align-right { float: right !important; }
+.align-center { margin: auto !important; }
+
+img.align-left { margin: 0 0 0 20px; }
+img.align-right { margin: 0 20px 0 0; }
+
+/*  g. Grid  -------------------------------------- */
+.row {
+    width: 80%;
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.column, .columns {
+    width: auto;
+    float: none;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+@media (min-width: 767px) {
+    .row {
+        padding: 0 20px;
+    }
+    .column, .columns {
+        position: relative !important;
+        margin: 0;
+        padding: 0 20px;
+        min-height: 1px;
+        float: left;
+    }
+    .column:first-child, .columns:first-child {
+        margin-left: 0;
+    }
+
+    /* Column widths */
+    .one.column, .one.columns       { width: 13.3333333333%; }
+    .two.columns                    { width: 16.6666666667%; }
+    .three.columns                  { width: 25%;            }
+    .four.columns                   { width: 33.3333333333%; }
+    .five.columns                   { width: 41.6666666667%; }
+    .six.columns                    { width: 50%;            }
+    .seven.columns                  { width: 58.3333333333%; }
+    .eight.columns                  { width: 66.6666666667%; }
+    .nine.columns                   { width: 75.0%;          }
+    .ten.columns                    { width: 83.3333333333%; }
+    .eleven.columns                 { width: 91.6666666667%; }
+    .twelve.columns                 { width: 100%;           }
+
+    .one-third.column               { width: 33.3333333333%; }
+    .two-thirds.column              { width: 66.6666666667%; }
+
+    .one-half.column                { width: 50%; }
+
+    /* Offsets */
+    .offset-by-one.column,
+    .offset-by-one.columns          { margin-left: 8.3333333333%;  }
+    .offset-by-two.column,
+    .offset-by-two.columns          { margin-left: 16.6666666667%; }
+    .offset-by-three.column,
+    .offset-by-three.columns        { margin-left: 25%;            }
+    .offset-by-four.column,
+    .offset-by-four.columns         { margin-left: 33.3333333333%; }
+    .offset-by-five.column,
+    .offset-by-five.columns         { margin-left: 41.6666666667%; }
+    .offset-by-six.column,
+    .offset-by-six.columns          { margin-left: 50%;            }
+    .offset-by-seven.column,
+    .offset-by-seven.columns        { margin-left: 58.3333333333%; }
+    .offset-by-eight.column,
+    .offset-by-eight.columns        { margin-left: 66.6666666667%; }
+    .offset-by-nine.column,
+    .offset-by-nine.columns         { margin-left: 75.0%;          }
+    .offset-by-ten.column,
+    .offset-by-ten.columns          { margin-left: 83.3333333333%; }
+    .offset-by-eleven.column,
+    .offset-by-eleven.columns       { margin-left: 91.6666666667%; }
+
+    .offset-by-one-third.column,
+    .offset-by-one-third.columns    { margin-left: 33.3333333333%; }
+    .offset-by-two-thirds.column,
+    .offset-by-two-thirds.columns   { margin-left: 66.6666666667%; }
+
+    .offset-by-one-half.column,
+    .offset-by-one-half.columns     { margin-left: 50%; }
+}
