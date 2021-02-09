@@ -1,7 +1,13 @@
-# Marissa Alvarez - Portfolio (React.js)
+# Marissa Alvarez - Portfolio
 
-* React.js
-* create-react-app
+[Click Here to view my Portfolio](https://www.marissaalvarez.com/)
+
+#Technologies
+* React
 * JavaScript
 * HTML
 * CSS
+
+#Deployment
+* AWS Amplify
+* Registered a unique domain
