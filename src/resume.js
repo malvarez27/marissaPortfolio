@@ -49,7 +49,7 @@ const resume = {
         {
             "title": "Personal Portfolio Website",
             "summary": "A single-page React application demonstrating my abilities and accomplishments " +
-            "as a software engineer. The application is hosted on AWS Amplify. ",
+            "as a software engineer. The application is hosted on AWS Amplify connected with a custom domain name using Amazon Route 53. ",
             "url": "https://github.com/malvarez27/marissaPortfolio",
             "img": "/images/portfolioScreenshot.jpg"
         },
