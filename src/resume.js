@@ -57,7 +57,7 @@ const resume = {
             "title": "LOOIE",
             "summary": "Logical Organizations of Integrated Environments is an Internally developed web application for" +
             "the Factory of the Future (FoF) initiative at Northrop Grumman. The LOOIE web application tracks and manages tools, support equipment, and material movement from receipt to deployment." +
-            " Click the link to learn more about my role on this project! " ,
+            " Click the link to learn more about my role on this project! *Portfolio was cleared for public release* " ,
             "url": "https://github.com/malvarez27/marissaPortfolio/blob/master/public/images/Looie.pdf",
             "img": "/images/Homepage.png"
         },
@@ -110,7 +110,7 @@ const resume = {
             "title": "Manager Software Development",
             "quote": "Marissa was assigned to work with Application Design and Development team. The team used modern " +
             "technologies .Net Core, a full CI/CD pipeline, and automated testing. Her team members have all positive comments " +
-            "about working with Marissa. They were particularly impressed with her enthusiasm and ability to pick up new envirnments. "
+            "about working with Marissa. They were particularly impressed with her enthusiasm and ability to pick up new environments. "
         }
     ],
 
