@@ -56,8 +56,8 @@ const resume = {
         {
             "title": "LOOIE",
             "summary": "Logical Organizations of Integrated Environments is an Internally developed web application for" +
-            "the Factory of the Future (FoF) initiative at Northrop Grumman. The LOOIE web application tracks and manages tools, support equipment, and material movement from receipt to deployment." +
-            " Click the link to learn more about my role on this project!" ,
+            "the Factory of the Future (FoF) initiative at Northrop Grumman. The LOOIE web application tracks and manages tools from receipt to deployment." +
+            " Click the link to learn more about my role on this project! *Portfolio was cleared for public release* " ,
             "url": "https://github.com/malvarez27/marissaPortfolio/blob/master/public/images/Looie.pdf",
             "img": "/images/Homepage.png"
         },
