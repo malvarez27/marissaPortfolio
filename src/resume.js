@@ -2,9 +2,9 @@ const resume = {
     "header": {
         "name": "Marissa Alvarez",
         "location": "Los Angeles",
-        "currentRole": "Web Developer and Software Engineer",
+        "currentRole": "I am outgoing, determined, a go getter, and a goal driven individual that enjoys challenges and problem solving.",
         "roleDescription": "I have a passion for learning new technologies and " +
-        "frontend development! When I am not coding I enjoy going to the beach and playing with my pup!",
+        "frontend development! Outside of work I am a dog mom, I enjoy cooking, and fitness. ",
     },
 
     "socialLinks": [
@@ -29,7 +29,7 @@ const resume = {
     ],
 
     "about": {
-        "summary": "I am a developer with more than a year of full time experience. I am dedicated, spontaneous, and a hard working individual. " +
+        "summary": "I am currently in a rotational program at Northrop Grumman. While at NG I have dipped my toes in several different assignments. " +
         "Throughout the year I have gained experiences and a successful track record of delivering high quality work. " +
         "I have a passion for tech, shaping products, developing a clean user experience, and writing readable code. " +
         "My experiences collaborating cross-functionally with different diciplines " +
@@ -62,15 +62,6 @@ const resume = {
             "img": "/images/Homepage.png"
         },*/
         {
-          "title": "Yelp Database",
-          "summary": "I analyzed data on local restaurants in order to determine ratings patterns for establishments, " +
-          "see if certain categories were lacking in the area, and how to differentiate yourself if the menu for your " +
-          "restauraunts is similar to your competitors." +
-          " I utilized Python, MySQL, the Yelp API, and Tableau.",
-          "url": "https://github.com/malvarez27/yelpDB#readme",
-          "img": "/images/CreateFastFoodDB.jpg"
-        },
-        {
           "title": "Figma Files",
           "summary": "Here are a few items displaying my experience in Figma. I began pursuing my Masters and I am currently enrolled " +
           " in a UX Design course at the University of Southern California. I am learning so many topics about UX Design. " +
@@ -78,6 +69,16 @@ const resume = {
           " I am excited to continue to utilize my skills using Figma. ",
           "url": "https://github.com/malvarez27/figmaFIles/blob/main/README.md",
           "img": "/images/figma.png"
+        },
+        {
+
+          "title": "Yelp Database",
+          "summary": "I analyzed data on local restaurants in order to determine ratings patterns for establishments, " +
+          "see if certain categories were lacking in the area, and how to differentiate yourself if the menu for your " +
+          "restauraunts is similar to your competitors." +
+          " I utilized Python, MySQL, the Yelp API, and Tableau.",
+          "url": "https://github.com/malvarez27/yelpDB#readme",
+          "img": "/images/CreateFastFoodDB.jpg"
         },
         {
           "title": "Graphics",
