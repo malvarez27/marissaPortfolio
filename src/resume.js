@@ -71,19 +71,19 @@ const resume = {
           "img": "/images/CreateFastFoodDB.jpg"
         },
         {
-            "title": "Graphics",
-            "summary": "Cartoonify and 3D Model projects completed in my LMU Graphics class. Click on the image for more information located on my github Read Me Page.",
-            "url": "https://github.com/malvarez27/Graphics",
-            "img": "/images/rotatingScene.jpg"
+          "title": "Figma Files",
+          "summary": "Here are a few items displaying my experience in Figma. I began pursuing my Masters and I am currently enrolled " +
+          " in a UX Design course at the University of Southern California. I am learning so many topics about UX Design. " +
+          " I have really enjoyed creating mockups and protoypes in Figma. " +
+          " I am excited to continue to utilize my skills using Figma. ",
+          "url": "https://github.com/malvarez27/figmaFIles/blob/main/README.md",
+          "img": "/images/NZBlog.jpg"
         },
         {
-            "title": "Study Abroad HTML Blog",
-            "summary": "When I was looking into the New Zealand study abroad program at LMU there was little to no information about student  " +
-            " experiences. I had to reach out to alumni to learn more. To give back to the LMU community I used HTML and Bootstrap to  " +
-            " create a study abroad blog post about my experience. This allows future students to learn about the program. My blog is now " +
-            " shared by the LMU study abroad office to students looking into the program. ",
-            "url": "https://malvarez27.github.io/Study-Abroad-Website-Blog/",
-            "img": "/images/NZBlog.jpg"
+          "title": "Graphics",
+          "summary": "Cartoonify and 3D Model projects completed in my LMU Graphics class. Click on the image for more information located on my github Read Me Page.",
+          "url": "https://github.com/malvarez27/Graphics",
+          "img": "/images/rotatingScene.jpg"  
         }
     ],
 
