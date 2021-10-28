@@ -53,14 +53,14 @@ const resume = {
             "url": "https://github.com/malvarez27/marissaPortfolio",
             "img": "/images/portfolioScreenshot.jpg"
         },
-        {
+        /*{
             "title": "LOOIE",
             "summary": "Logical Organizations of Integrated Environments is an Internally developed web application for" +
             "the Factory of the Future (FoF) initiative at Northrop Grumman. The LOOIE web application tracks and manages tools from receipt to deployment." +
             " Click the link to learn more about my role on this project! *Portfolio was cleared for public release* " ,
             "url": "https://github.com/malvarez27/marissaPortfolio/blob/master/public/images/Looie.pdf",
             "img": "/images/Homepage.png"
-        },
+        },*/
         {
           "title": "Yelp Database",
           "summary": "I analyzed data on local restaurants in order to determine ratings patterns for establishments, " +
@@ -77,13 +77,13 @@ const resume = {
           " I have really enjoyed creating mockups and protoypes in Figma. " +
           " I am excited to continue to utilize my skills using Figma. ",
           "url": "https://github.com/malvarez27/figmaFIles/blob/main/README.md",
-          "img": "/images/NZBlog.jpg"
+          "img": "/images/figma.png"
         },
         {
           "title": "Graphics",
           "summary": "Cartoonify and 3D Model projects completed in my LMU Graphics class. Click on the image for more information located on my github Read Me Page.",
           "url": "https://github.com/malvarez27/Graphics",
-          "img": "/images/rotatingScene.jpg"  
+          "img": "/images/rotatingScene.jpg"
         }
     ],
 
